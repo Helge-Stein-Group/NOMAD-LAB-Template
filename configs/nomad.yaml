@@ -27,13 +27,9 @@ elastic:
 
 plugins:
   include:
-    - 'schemas/example'
-    # - 'parsers/example'
     - 'parsers/batterycycleparser'
   options:
     schemas/example:
       python_package: nomadschemaexample
-    # parsers/example:
-    #   python_package: nomadparserexample
     parsers/batterycycleparser:
       python_package: batterycycleparser
