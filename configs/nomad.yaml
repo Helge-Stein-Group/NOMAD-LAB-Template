@@ -29,7 +29,5 @@ plugins:
   include:
     - 'parsers/batterycycleparser'
   options:
-    schemas/example:
-      python_package: nomadschemaexample
     parsers/batterycycleparser:
       python_package: batterycycleparser
