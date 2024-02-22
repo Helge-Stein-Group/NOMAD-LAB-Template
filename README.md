@@ -5,4 +5,7 @@
 ```
 sudo chown -R 100:1000 ./battery-cycle-parser
 ```
-5. docker compose up -d
+5. run the docker container
+```
+docker compose up -d
+```
