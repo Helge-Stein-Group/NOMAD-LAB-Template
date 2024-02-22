@@ -5,7 +5,8 @@
 ```
 sudo chown -R 100:1000 ./battery-cycle-parser
 ```
-5. run the docker container
+4. run the docker container
 ```
 docker compose up -d
 ```
+5. Your nomad oasis should then run at: http://localhost:80/nomad-oasis/ 
