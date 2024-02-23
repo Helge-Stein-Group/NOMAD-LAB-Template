@@ -3,7 +3,7 @@
 1. Pull the repository
 3. In the directory run:
 ```
-sudo chown -R 100:1000 ./battery-cycle-parser
+sudo chown -R 1000:1000 ./battery-cycle-parser
 ```
 4. run the docker container
 ```
